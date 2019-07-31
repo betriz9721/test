@@ -1,0 +1,64 @@
+#welcome {
+color: white; /*#F5CADC */
+  font-family: Verdana;
+  font-size: 40px;
+  text-align: center;
+  text-shadow:;
+}
+#quick {
+  color: white;
+  font-family: calibri;
+  font-size: 18px;
+  text-align: center;
+}
+#front {
+  color: white;
+  font-family: calibri;
+  font-size: 14px; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 15px;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #333;
+  font-family: ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+body  {
+  background: url('https://i.pinimg.com/originals/4b/7a/01/4b7a01402c6287bd130726ad2e0d2dc9.jpg') no-repeat center center fixed;
+  background-size: cover;
+  }
+
+  div.transbox {
+    margin: 30px;
+    background-color: black;
+    border: 30px solid black;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    align-items: stretch;
+}
+
+div.transbox p {
+  margin: 4%;
+  font-weight: bold;
+  color: black;
+}
